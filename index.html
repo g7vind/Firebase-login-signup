@@ -15,11 +15,14 @@
       <form action="#">
         <input type="text" id='inUsr' placeholder="Enter your email">
         <input type="password" id="inPass" placeholder="Enter your password">
+        <span class="signup">
+          <a href="#" id="forgotLabel">Forgot password?</a>
+        </span>
         <input type="button" class="button loginbtn" value="Login">
       </form>
       <div class="signup">
         <span class="signup">Don't have an account?
-         <label for="check">Signup</label>
+          <a href="#" id="signupLabel">Signup</a>
         </span>
       </div>
     </div>
@@ -34,7 +37,24 @@
       </form>
       <div class="signup">
         <span class="signup">Already have an account?
-         <label for="check">Login</label>
+          <a href="#" id="loginLabel">Login</a>
+        </span>
+      </div>
+    </div>
+    <div class="forgot form" >
+      <header>Forgot Password</header>
+      <form action="#">
+        <input type="text" id='forgotinp' placeholder="Enter your email">
+        <input type="button" class="button forgotbtn" value="Submit">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+          <a href="#" id="signupLabel">Signup</a>
+        </span>
+      </div>
+      <div class="signup">
+        <span class="signup">Already have an account?
+          <a href="#" id="loginLabel">Login</a>
         </span>
       </div>
     </div>
@@ -42,6 +62,6 @@
   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-<script src="script.js"></script>
+<script src="page0.js" type="module"></script>
 </body>
 </html>

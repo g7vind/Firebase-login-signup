@@ -25,11 +25,8 @@ body{
 .container .registration{
   display: none;
 }
-#check:checked ~ .registration{
-  display: block;
-}
-#check:checked ~ .login{
-  display: none;
+.container .forgot{
+  display:none;
 }
 #check{
   display: none;
@@ -56,14 +53,6 @@ body{
  .form input:focus{
    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
  }
-.form a{
-  font-size: 16px;
-  color: #009579;
-  text-decoration: none;
-}
-.form a:hover{
-  text-decoration: underline;
-}
 .form input.button{
   color: #fff;
   background: #009579;
@@ -81,10 +70,10 @@ body{
   font-size: 17px;
   text-align: center;
 }
-.signup label{
+.signup a{
   color: #009579;
   cursor: pointer;
 }
-.signup label:hover{
+.signup a:hover{
   text-decoration: underline;
 }

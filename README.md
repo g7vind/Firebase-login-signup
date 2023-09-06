@@ -4,6 +4,18 @@ This is a simple web application for user authentication using Firebase Authenti
 ## Getting Started
 Follow these steps to set up the project and configure Firebase for authentication.
 
+### Prerequisites
+1. You will need a Firebase account.
+
+### Installation
+1. Clone the repository to your local machine.
+```
+git clone https://github.com/g7vind/Firebase-login-signup.git
+```
+2. Navigate to the project directory.
+```
+cd firebase-authentication-web-app
+```
 ### Firebase Configuration
 
 1. Go to the Firebase Console.

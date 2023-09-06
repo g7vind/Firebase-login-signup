@@ -27,8 +27,8 @@ cd firebase-authentication-web-app
 
 ### Configuration File
 
-1. In the project directory, create a new file named Config.js.
-2. Paste the Firebase configuration object into Config.js as follows:
+1. In the project directory, create a new file named config.js.
+2. Paste the Firebase configuration object into config.js as follows:
 ```
 // Config.js
 const firebaseConfig = {

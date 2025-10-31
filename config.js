@@ -1,10 +1,10 @@
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID",
-    measurementId: "YOUR_MEASUREMENT_ID"
+  apiKey: "AIzaSyBbLqkKU1wzppfe5bjUHcswk-VCX3g_fnk",
+  authDomain: "pune-games.firebaseapp.com",
+  projectId: "pune-games",
+  storageBucket: "pune-games.firebasestorage.app",
+  messagingSenderId: "997823408076",
+  appId: "1:997823408076:web:819746554ca6405a39df69",
+  measurementId: "G-142N310DKG"
 };
-export {firebaseConfig};
